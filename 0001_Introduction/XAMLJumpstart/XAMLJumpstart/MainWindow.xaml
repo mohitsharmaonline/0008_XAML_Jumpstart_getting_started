@@ -1,4 +1,5 @@
 ﻿<Window x:Class="XAMLJumpstart.MainWindow"
+        xmlns:otherNamespace="clr-namespace:XAMLJumpstart.OtherNamespace"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -7,14 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Height="100" Width="80">
-            <Button.Content>
-                <StackPanel Orientation="Vertical">
-                    <Image Source="psight.png"></Image>
-                    <TextBlock Text="Hi There!"></TextBlock>
-                </StackPanel>
-            </Button.Content>
-        </Button>
+        <otherNamespace:DummyUserControl></otherNamespace:DummyUserControl>  
 
     </Grid>
 </Window>
