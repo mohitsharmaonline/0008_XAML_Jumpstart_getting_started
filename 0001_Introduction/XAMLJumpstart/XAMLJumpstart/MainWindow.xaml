@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Width="100" Height="40"
-                Content="Hi there!"/>
+        <Button>
+            <Button.Height>100</Button.Height>
+            <Button.Width>40</Button.Width>
+            <Button.Content>Hi there!</Button.Content>
+        </Button>
 
     </Grid>
 </Window>
