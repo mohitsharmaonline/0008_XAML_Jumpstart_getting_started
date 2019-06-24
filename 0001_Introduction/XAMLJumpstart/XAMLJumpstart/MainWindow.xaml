@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button>
-            <Button.Height>100</Button.Height>
-            <Button.Width>40</Button.Width>
-            <Button.Content>Hi there!</Button.Content>
+        <Button Height="100" Width="80">
+            <Button.Content>
+                <StackPanel Orientation="Vertical">
+                    <Image Source="psight.png"></Image>
+                    <TextBlock Text="Hi There!"></TextBlock>
+                </StackPanel>
+            </Button.Content>
         </Button>
 
     </Grid>
