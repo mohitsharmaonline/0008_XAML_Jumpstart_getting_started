@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle Fill="#FFA06436" HorizontalAlignment="Left" Height="189.67" Margin="92.694,122.041,0,0" Stroke="Black" VerticalAlignment="Top" Width="260.331"/>
+        <Rectangle Fill="#7FA06436" HorizontalAlignment="Left" Height="189.67" Margin="92.694,122.041,0,0" Stroke="Black" VerticalAlignment="Top" Width="260.331"/>
 
     </Grid>
 </Window>
