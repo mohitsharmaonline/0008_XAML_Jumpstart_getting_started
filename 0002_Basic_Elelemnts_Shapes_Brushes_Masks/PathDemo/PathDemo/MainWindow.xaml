@@ -9,7 +9,16 @@
     <Grid Background="White">
         <Path Stroke="Blue" StrokeThickness="5">
             <Path.Data>
-                <RectangleGeometry Rect="10,10,200,100"></RectangleGeometry>
+                <PathGeometry>
+                    <PathFigureCollection>
+                        <PathFigure StartPoint="10,10">
+                            <PathFigure.Segments>
+                                <LineSegment Point="10,200"></LineSegment>
+                                <ArcSegment Size="50,50" RotationAngle="90" Point="200,100"></ArcSegment>
+                            </PathFigure.Segments>
+                        </PathFigure>
+                    </PathFigureCollection>
+                </PathGeometry>
             </Path.Data>
         </Path>
     </Grid>
