@@ -9,7 +9,7 @@
     <Grid Background="White">
         <Path Stroke="Blue" StrokeThickness="5">
             <Path.Data>
-                <LineGeometry StartPoint="10,20" EndPoint="10,200"></LineGeometry>
+                <RectangleGeometry Rect="10,10,200,100"></RectangleGeometry>
             </Path.Data>
         </Path>
     </Grid>
