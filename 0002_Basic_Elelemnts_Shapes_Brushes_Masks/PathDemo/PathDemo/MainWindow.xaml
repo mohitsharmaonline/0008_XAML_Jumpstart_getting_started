@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:PathDemo"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="White">
+        <Path Stroke="Blue" StrokeThickness="5">
+            <Path.Data>
+                <LineGeometry StartPoint="10,20" EndPoint="10,200"></LineGeometry>
+            </Path.Data>
+        </Path>
     </Grid>
 </Window>
