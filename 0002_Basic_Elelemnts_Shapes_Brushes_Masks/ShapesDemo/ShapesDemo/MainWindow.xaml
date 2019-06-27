@@ -7,8 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle Fill="#FF4747A2" HorizontalAlignment="Left" Height="148.17" Margin="83.805,125.171,0,0" Stroke="#FFDCC0C0" VerticalAlignment="Top" Width="282.622" StrokeThickness="5"/>
-        <Ellipse Fill="#FF7C7C87" HorizontalAlignment="Left" Height="132" Margin="302,207,0,0" Stroke="#FF5B0000" StrokeThickness="5" VerticalAlignment="Top" Width="260"/>
+        <Path Data="M2.5,2.5 L280.12201,2.5 280.12201,94.147789 282.08162,93.522108 C301.35923,87.688397 323.9894,84.329002 348.19501,84.329003 418.61131,84.329002 475.69501,112.75892 475.69501,147.829 475.69501,182.89909 418.61131,211.329 348.19501,211.329 277.7787,211.329 220.69501,182.89909 220.695,147.829 220.69501,147.28103 220.70894,146.73468 220.73665,146.19004 L220.77632,145.67001 2.5,145.67001 z" Fill="#FF7C7C87" HorizontalAlignment="Left" Height="213.829" Margin="83.805,125.171,0,0" Stretch="Fill" Stroke="#FF5B0000" StrokeThickness="5" VerticalAlignment="Top" Width="478.195"/>
 
     </Grid>
 </Window>
