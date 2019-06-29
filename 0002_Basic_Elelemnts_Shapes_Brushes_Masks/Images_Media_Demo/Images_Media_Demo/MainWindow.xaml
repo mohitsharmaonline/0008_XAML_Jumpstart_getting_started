@@ -12,12 +12,9 @@
                HorizontalAlignment="Center"
                VerticalAlignment="Center"
                Source="Assets/pluralsight-fullcolor.png">
-            <Image.OpacityMask>
-                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="Black" Offset="0"/>
-                    <GradientStop Offset="1"/>
-                </LinearGradientBrush>
-            </Image.OpacityMask>
+            <Image.Clip>
+                <EllipseGeometry RadiusX="100" RadiusY="20" Center="100,30"></EllipseGeometry>
+            </Image.Clip>
 
         </Image>
     </Grid>
