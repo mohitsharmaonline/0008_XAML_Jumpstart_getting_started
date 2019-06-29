@@ -9,10 +9,7 @@
     <Grid>
         <Rectangle HorizontalAlignment="Left" Height="189.67" Margin="92.694,122.041,0,0" Stroke="Black" VerticalAlignment="Top" Width="260.331">
             <Rectangle.Fill>
-                <RadialGradientBrush>
-                    <GradientStop Color="#FFAE4223" Offset="0.025"/>
-                    <GradientStop Color="#FF2B3BE0" Offset="1"/>
-                </RadialGradientBrush>
+                <ImageBrush ImageSource="Assets/pluralsight-fullcolor.png"/>
             </Rectangle.Fill>
         </Rectangle>
 
