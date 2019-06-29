@@ -9,9 +9,11 @@
     <Grid>
         <Rectangle HorizontalAlignment="Left" Height="189.67" Margin="92.694,122.041,0,0" Stroke="Black" VerticalAlignment="Top" Width="260.331">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="Assets/pluralsight-fullcolor.png"
-                            Viewport="0,0,50,50" ViewportUnits="Absolute" TileMode="Tile">
-                </ImageBrush>
+                <VisualBrush>
+                    <VisualBrush.Visual>
+                        <MediaElement Source="C:\Users\mohit\Documents\0008_XAML_Jumpstart_getting_started\0002_Basic_Elelemnts_Shapes_Brushes_Masks\BrushesDemo\BrushesDemo\Assets\sample.wmv"></MediaElement>
+                    </VisualBrush.Visual>
+                </VisualBrush>
             </Rectangle.Fill>
         </Rectangle>
 
