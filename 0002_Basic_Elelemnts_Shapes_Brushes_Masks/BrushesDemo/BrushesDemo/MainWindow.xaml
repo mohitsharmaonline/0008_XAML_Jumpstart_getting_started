@@ -9,7 +9,9 @@
     <Grid>
         <Rectangle HorizontalAlignment="Left" Height="189.67" Margin="92.694,122.041,0,0" Stroke="Black" VerticalAlignment="Top" Width="260.331">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="Assets/pluralsight-fullcolor.png"/>
+                <ImageBrush ImageSource="Assets/pluralsight-fullcolor.png"
+                            Viewport="0,0,50,50" ViewportUnits="Absolute" TileMode="Tile">
+                </ImageBrush>
             </Rectangle.Fill>
         </Rectangle>
 
