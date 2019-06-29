@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <MediaElement Source="C:\Users\mohit\Documents\0008_XAML_Jumpstart_getting_started\0002_Basic_Elelemnts_Shapes_Brushes_Masks\Images_Media_Demo\Images_Media_Demo\Assets\sample.wmv"/>
+        <Image Width="200"
+               Height="60"
+               HorizontalAlignment="Center"
+               VerticalAlignment="Center"
+               Source="Assets/pluralsight-fullcolor.png">
+            <Image.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Offset="1"/>
+                </LinearGradientBrush>
+            </Image.OpacityMask>
+
+        </Image>
     </Grid>
 </Window>
