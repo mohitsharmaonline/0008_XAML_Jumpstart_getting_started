@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Image Source="C:\Users\mohit\Documents\0008_XAML_Jumpstart_getting_started\0002_Basic_Elelemnts_Shapes_Brushes_Masks\Images_Media_Demo\Images_Media_Demo\Assets\pluralsight-fullcolor.png"></Image>
     </Grid>
 </Window>
